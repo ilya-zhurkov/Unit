@@ -1,0 +1,34 @@
+.card {
+    text-align: center;
+}
+.card__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+}
+.card__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: $colortext;
+    margin-bottom: 20px;
+
+    @media (max-width: 1199px) {
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
+.card__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.14;
+    color: $colorcardtext;
+
+    @media (max-width: 1199px) {
+        line-height: 22px;
+    }
+}

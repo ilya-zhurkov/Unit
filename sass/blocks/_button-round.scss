@@ -1,0 +1,14 @@
+.button-round{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button-round:hover{
+    background-color: #00C470;
+}
